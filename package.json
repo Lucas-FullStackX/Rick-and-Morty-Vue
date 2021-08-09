@@ -1,8 +1,11 @@
 {
+  "homepage": "http://lucas-fullStackx.github.io/Movies-App",
   "name": "rickymorty",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
@@ -16,6 +19,7 @@
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
+    "gh-pages": "^3.2.3",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2"
   }
