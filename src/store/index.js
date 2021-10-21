@@ -4,7 +4,6 @@ export default createStore({
   state: {
     characters: [],
     charactersFilter: [],
-    test: []
   },
   mutations: {
     setCharacters(state, payload) {
